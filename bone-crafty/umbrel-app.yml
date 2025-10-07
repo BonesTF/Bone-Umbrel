@@ -1,0 +1,46 @@
+manifestVersion: 1
+id: bone-crafty
+name: Crafty Controller
+tagline: Uma maneira intuitiva de automatizar e gerenciar seu servidor Minecraft com facilidade
+icon: https://i.ibb.co/zW9vjcyd/crafty-icon.png
+category: host
+version: "4.4.9"
+port: 8443
+description: >-
+  ⛏️ O Crafty Controller é uma interface web de código aberto projetada para gerenciar e controlar os bots Crafty, usados para automatizar e gerenciar servidores de Minecraft. O Crafty em si é uma estrutura de bots que permite aos administradores automatizar diversas tarefas em servidores de Minecraft, desde a execução de testes até o gerenciamento de eventos do jogo, controle das configurações do servidor e muito mais. O Crafty Controller fornece uma plataforma centralizada onde os administradores podem monitorar e controlar esses bots em um só lugar.
+
+
+  O principal benefício do Crafty Controller é sua simplicidade e facilidade de uso. Em vez de ter que interagir manualmente com cada bot por meio de código ou interface de linha de comando, o Crafty Controller oferece um painel web intuitivo onde os administradores podem configurar o comportamento dos bots, rastrear suas ações e emitir comandos. Ele permite adicionar ou remover bots, visualizar seus status e monitorar logs, o que é especialmente útil para solucionar problemas ou otimizar o desempenho dos bots.
+
+
+  Além disso, o Crafty Controller é altamente personalizável. Os administradores de servidor podem configurar bots para executar ações específicas com base em eventos ou interações dos jogadores, e os desenvolvedores podem estender a funcionalidade com scripts ou plugins personalizados. Essa flexibilidade o torna uma ferramenta valiosa para qualquer pessoa que administre um servidor de Minecraft e precise automatizar tarefas ou criar uma jogabilidade personalizada, orientada por bots.
+
+
+  Em última análise, o Crafty Controller é uma ferramenta poderosa para automatizar e gerenciar servidores do Minecraft, fornecendo um hub central que simplifica o gerenciamento de bots e permite uma administração mais eficiente das tarefas do servidor.
+
+
+  ⚠️ O Crafty Controller usa HTTPS para proteger seus dados pessoais. Ao acessar o Crafty Controller, você deve digitar explicitamente "https" no endereço, por exemplo, https://umbrel.local:8443.
+
+
+  ℹ️ O Crafty Controller usa um certificado autoassinado, o que pode disparar um aviso no navegador como "Sua conexão não é privada". Você pode prosseguir com segurança clicando em "Avançado" e depois em "Prosseguir para umbrel.local (inseguro)" ou em uma opção semelhante, dependendo do seu navegador.
+
+
+  �O nome de usuário padrão do Crafty Controller é "admin", e a senha é gerada aleatoriamente. Você pode encontrar a senha no arquivo localizado em: /umbrel/app-data/bone-crafty/data/config/default-creds.txt. É altamente recomendável alterar a senha imediatamente após o login por motivos de segurança.
+  
+developer: Arcadia Technology
+website: https://craftycontrol.com/
+submitter: Bones Umbrel
+submission:
+repo: https://gitlab.com/crafty-controller
+support: https://gitlab.com/groups/crafty-controller/-/issues
+gallery:
+  - https://i.imgur.com/vSbZ6cA.png
+  - https://i.imgur.com/K5RoLTs.png
+  - https://i.imgur.com/3VeLF4I.png
+  - https://i.imgur.com/8cTkoj9.png
+releaseNotes: >-
+  A atualização 4.4.9 inclui correções de bugs e resolve o problema substituindo o usuário "ubuntu" pelo usuário "crafty" no processo de reparo do Docker.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: ""
