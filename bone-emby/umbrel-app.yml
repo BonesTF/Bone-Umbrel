@@ -3,7 +3,7 @@ id: bone-emby
 name: Emby
 tagline: A personal media server
 icon: https://i.imgur.com/OfOArez.png
-category: media
+category: mídia
 version: "4.8.11"
 port: 8096
 description: >-
