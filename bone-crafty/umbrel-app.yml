@@ -40,6 +40,6 @@ gallery:
   - https://i.imgur.com/8cTkoj9.png
 releaseNotes: >-
 dependencies:
-path: ""
+path: "https://umbrel.local:8443"
 defaultUsername: "admin"
 defaultPassword: ""
