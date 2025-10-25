@@ -39,7 +39,6 @@ gallery:
   - https://i.imgur.com/3VeLF4I.png
   - https://i.imgur.com/8cTkoj9.png
 releaseNotes: >-
-  A atualização 4.4.9 inclui correções de bugs e resolve o problema substituindo o usuário "ubuntu" pelo usuário "crafty" no processo de reparo do Docker.
 dependencies:
 path: ""
 defaultUsername: "admin"
